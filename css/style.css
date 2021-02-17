@@ -116,20 +116,20 @@ body {
 /* cart item */
 /* cart buttons */
 .btn-white {
-  color: var(--mainWhite) !important;
-  border-color: var(--mainWhite) !important;
+  color: var(--mainWhite);
+  border-color: var(--mainWhite);
 }
 .btn-black {
-  color: var(--mainBlack) !important;
-  border-color: var(--mainBlack) !important;
+  color: var(--mainBlack);
+  border-color: var(--mainBlack);
 }
 .btn-black:hover {
-  color: var(--mainWhite) !important;
-  background: var(--mainBlack) !important;
+  color: var(--mainWhite);
+  background: var(--mainBlack);
 }
 .btn-white:hover {
-  background: var(--mainWhite) !important;
-  color: var(--mainBlack) !important;
+  background: var(--mainWhite);
+  color: var(--mainBlack);
 }
 /* end of cart buttons */
 
@@ -205,7 +205,7 @@ body {
   right: 0;
   bottom: 0;
   z-index: 999;
-  background: rgba(0, 0, 0, 0.6) !important;
+  background: rgba(0, 0, 0, 0.6);
   display: none;
 }
 .show {
@@ -254,19 +254,12 @@ body {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 50px;
+  right: 5px;
   z-index: 99;
-  font-size: 1px;
   border: none;
   outline: none;
   background-color: transparent;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
-
-#myBtn:hover {
-  background-color: var(--blueTrans);
 }
